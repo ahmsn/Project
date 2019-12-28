@@ -87,6 +87,11 @@ input, select, textarea {
 		html, body {
 			min-width: 320px;
 		}
+		
+		.names {
+			justify-content: space-between; 
+			display: flex;
+		}
 
 	}
 
