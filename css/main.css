@@ -295,11 +295,6 @@ input, select, textarea {
 			font-size: 0.675rem;
 		}
 		
-		.names {
-			justify-content: space-between; 
-			display: flex;
-		}
-
 	}
 
 	sub {
@@ -3868,5 +3863,13 @@ input, select, textarea {
 		body.is-ie #wrapper section > footer {
 			padding: 4rem;
 		}
+
+	}
+
+	@media screen and (min-width: 600px) {
+		  .names {
+		    	justify-content: space-between; 
+		    	display: flex;
+		  }
 
 	}
